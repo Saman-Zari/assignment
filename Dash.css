@@ -9,6 +9,7 @@ body {
   }
   .Container{
     width: 95%;
+    
   }
   .SideBar{
     width: 5%;
@@ -124,6 +125,10 @@ body {
 .Cards{
   background-color: white;
     margin: 40px;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.1),
+        10px 10px 15px rgba(0,0,0,0.1) ;
+        height: 80vh;
+        display: flex;
 }
 .img{
   vertical-align: middle;
@@ -132,17 +137,106 @@ body {
     border-radius: 50%;
 }
 .Header{
-  justify-content: end;
-  align-items: end;
+  text-align: end;
+  padding-top: 40px;
 }
 .LeftSide2{
-  width: 30%;
+  
+  width: 20%;
   
 
+}
+.Profile2{
+  text-align: center;
+  
+}
+
+.Pro{
+  vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-right: 1px;
+}
+.Text{
+  text-align: center;
+}
+.Found{
+  text-align: center;
 }
 .RightSide2{
-  width: 70%;
+  width: 80%;
 }
-
-
+.Header2{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+    margin: 10px;
+    
+}
+.Button2{
+  margin: 5px;
+  background-color: white; 
+  color: #333; 
+  border-radius: 10px;
+  padding: 10px 20px; 
+  cursor: pointer;
+  border: 0.5px solid  blue;
+  color: blue;
+}
+.Button2:hover {
+  background-color: blue;
+  color: white;
+}
+.Text2{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+    margin: 10px;
+}
+.LeftCard{
   
+  width: 80%;
+}
+.Box1{
+  display: flex;
+  background-color: white;
+
+}
+.Box{
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1),
+              5px 5px 10px rgba(0, 0, 0, 0.1);
+        height: 100px;
+        width: 15%;
+        text-align: center;
+        align-items: center;
+        
+}
+.Box2{
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1),
+              5px 5px 10px rgba(0, 0, 0, 0.1);
+        height: 100px;
+        width: 22.5%;
+        text-align: center;
+        align-items: center;
+        
+}
+.RightCard{
+  display: flex;
+  ;
+  width: 20%;
+}
+.Box1{
+  display: flex;
+}
+.Box4{
+  display: flex;
+}
+  .Card2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .imgcard{
+    height: 100%;
+    width: 100%;
+  }

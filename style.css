@@ -10,7 +10,7 @@ body{
 
     }
     .Container{
-        height: 10px, 20px;
+        height: 100vh;
         display: flex;
         flex-direction: row;
         align-items: center;
