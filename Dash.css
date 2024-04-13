@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .Main{
+    display: flex;
+    
+  }
+  .Container{
+    width: 95%;
+  }
+  .SideBar{
+    width: 5%;
+    background-color: white; 
+    border-radius: 0.5px;
+    border: 0.5px solid #51585c;
+    padding: 5px;
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  .Cat{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+  }
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation:initial;
+    white-space: nowrap;
+    color: green;
+    padding-right: 15px;
+    
+  }
+  
+  .NavBar{
+    padding: 10px 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    
+  }
+  .HeaderParent{
+    display: flex;
+    
+  }
+  .LeftSide{
+    flex: 1;
+  }
+  h3{
+    color: #51585c;
+  }
+  .RightSide{
+    display: flex;
+    align-items: center;
+  }
+  .NavBar input[type="text"] {
+    
+    width: 350px;
+    border: none;
+  }
+  .SearchContainer{
+    display: flex;
+  }
+  .SearchIcon{
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    
+  }
+  .Icon{
+    display: flex;
+    align-items: center;
+    
+
+    
+  }
+  
+  .avatar {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-right: 1px;
+  }
+  .fa.fa-info-circle {
+    color: black;
+    font-size: 24px;
+}
+.fa.fa-bell {
+  color: black;
+  font-size: 20px;
+  
+}
+.Buttons{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: gray;
+ 
+}
+.Buttons button {
+  margin: 5px;
+  background-color: white; 
+  color: #333; 
+  border-radius: 10px;
+  padding: 10px 20px; 
+  cursor: pointer;
+  border: 0.5px solid  gray; 
+}
+.Buttons button:hover {
+  background-color: greenyellow;
+  color: green;
+}
+.Cards{
+  background-color: white;
+    margin: 40px;
+}
+.img{
+  vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.Header{
+  justify-content: end;
+  align-items: end;
+}
+.LeftSide2{
+  width: 30%;
+  
+
+}
+.RightSide2{
+  width: 70%;
+}
+
+
+  

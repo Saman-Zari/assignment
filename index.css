@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+.Parent{
+    display: flex;
+}
+
+
+.Profile{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.SideBar{
+    width: 100px;
+    background-color: white;
+    border-radius: 1px;
+    border: none;
+    height: 100px;
+}
+.NavBar{
+    padding: 10px 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    
+    
+  }
+  .HeaderParent{
+    display: flex;
+  }
+  .LeftSide{
+    flex: 1;
+  }
+  h3{
+    color: #51585c;
+  }
+  .RightSide{
+    display: flex;
+    align-items: center;
+  }
+  .NavBar input[type="text"] {
+    
+    width: 350px;
+    border: none;
+  }
+  .SearchContainer{
+    display: flex;
+  }
+  .SearchIcon{
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    
+  }
+  
+  .avatar {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .fa.fa-info-circle {
+    color: black;
+    font-size: 24px;
+}
+.fa.fa-bell {
+  color: black;
+}
